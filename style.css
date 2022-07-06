@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(8%, #00000aee), color-stop(35%, #ffea00), color-stop(65%, #f3df00), color-stop(92%, #00000aee));
+  background: linear-gradient(180deg, #00000aee 8%, #ffea00 35%, #f3df00 65%, #00000aee 92%);
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.container .score-box {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border: 3px solid #eeda11;
+  border-radius: 50px;
+  text-align: center;
+}
+
+.container .score-box .wins, .container .score-box .draws, .container .score-box .loses {
+  margin: auto 0;
+  border: 2px solid #000;
+  border-radius: 30px;
+  width: 150px;
+  height: 120px;
+  background: #fff;
+}
+
+.container .score-box .wins h4, .container .score-box .draws h4, .container .score-box .loses h4 {
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.container .score-box .wins h2, .container .score-box .draws h2, .container .score-box .loses h2 {
+  font-size: 30px;
+}
+
+.container .score-box .game-name {
+  color: #eeda11;
+}
+
+.container .game {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 105px;
+}
+
+.container .game .player .choose, .container .game .computer .choose {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .game .player .choose .paper, .container .game .player .choose .rock, .container .game .player .choose .scissors, .container .game .computer .choose .paper, .container .game .computer .choose .rock, .container .game .computer .choose .scissors {
+  margin: 10px;
+}
+
+.container .game .player .choose .paper img, .container .game .player .choose .rock img, .container .game .player .choose .scissors img, .container .game .computer .choose .paper img, .container .game .computer .choose .rock img, .container .game .computer .choose .scissors img {
+  border: 3px solid #000;
+  border-radius: 20px;
+  cursor: pointer;
+  -webkit-box-shadow: 8px 8px 24px 0px black;
+  box-shadow: 8px 8px 24px 0px black;
+}
+
+.container .game .player p, .container .game .computer p {
+  font-size: 32px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.container .game .vs {
+  font-size: 55px;
+}
+
+.container .rules {
+  border: 3px solid #eeda11;
+  border-radius: 20px;
+  width: 150px;
+  font-size: 20px;
+  text-align: center;
+  margin: 00px 50px 0px auto;
+  cursor: pointer;
+}
+
+.container .rules p {
+  text-transform: uppercase;
+  color: #eeda11;
+}
+
+.container .rules:hover {
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+
+.container .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .footer p.footer-first {
+  font-size: 24px;
+  color: #eeda11;
+}
+
+.container .footer p.footer-second {
+  margin-left: 5px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 800;
+  text-decoration: underline;
+}
+/*# sourceMappingURL=style.css.map */

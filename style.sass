@@ -1,0 +1,85 @@
+body
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    background: linear-gradient(180deg, #00000aee 8%, rgba(255,234,0,1) 35%, rgba(243,223,0,1) 65%, #00000aee 92%)
+
+
+.container
+    width: 100%
+    height: 100%
+    .score-box
+        width: 50%
+        margin: 0 auto
+        margin-top: 10px
+        display: flex
+        justify-content: space-around
+        border: 3px solid #eeda11
+        border-radius: 50px
+        text-align: center
+        .wins, .draws, .loses
+            margin: auto 0
+            border: 2px solid #000
+            border-radius: 30px
+            width: 150px
+            height: 120px
+            background: #fff
+            h4
+                text-transform: uppercase
+                letter-spacing: 1.5px
+            h2
+                font-size: 30px
+        .game-name
+            color: #eeda11
+    .game
+        display: flex
+        justify-content: space-between
+        padding: 105px
+        .player, .computer
+            .choose
+                display: flex
+                .paper, .rock, .scissors
+                    margin: 10px
+                    img
+                        border: 3px solid #000
+                        border-radius: 20px
+                        cursor: pointer
+                        -webkit-box-shadow: 8px 8px 24px 0px rgba(0, 0, 0, 1)
+                        -moz-box-shadow: 8px 8px 24px 0px rgba(0, 0, 0, 1)
+                        box-shadow: 8px 8px 24px 0px rgba(0, 0, 0, 1)
+            p
+                font-size: 32px
+                text-align: center
+                text-transform: uppercase
+        .vs
+            font-size: 55px
+            
+
+
+    .rules
+        border: 3px solid #eeda11
+        border-radius: 20px
+        width: 150px
+        font-size: 20px
+        text-align: center
+        margin: 00px 50px 0px auto
+        cursor: pointer
+        p
+            text-transform: uppercase
+            color: #eeda11
+    .rules:hover
+        font-weight: bolder
+        letter-spacing: 1px
+    .footer
+        display: flex
+        width: 100%
+        justify-content: center
+        p.footer-first
+            font-size: 24px
+            color: #eeda11
+        p.footer-second
+            margin-left: 5px
+            color: #fff
+            font-size: 24px
+            font-weight: 800
+            text-decoration: underline
