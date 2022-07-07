@@ -31,39 +31,39 @@
         </div>
         <div class="game">
             <div class="player">
-                <p>Your pick...</p>
+                <p id="playerChoice">Your pick...</p>
                 <div class="choose">
-                    <div class="paper">
+                    <div class="rock" id="playerRock">
+                        <img src="rock.png">
+                        <p>Rock</p>
+                    </div>
+                    <div class="paper" id="playerPaper">
                         <img src="paper.png">
                         <p>Paper</p>
                     </div>
-                    <div class="scissors">
+                    <div class="scissors" id="playerScissors">
                         <img src="scisors.png">
                         <p>Scissors</p>
-                    </div>
-                    <div class="rock">
-                        <img src="rock.png">
-                        <p>Rock</p>
                     </div>
                 </div>
             </div>
             <div class="vs">
-                <p>VS</p>
+                <p id="result">VS</p>
             </div>
             <div class="computer">
-                <p>Computer pick...</p>
+                <p id="computerChoice">Computer pick...</p>
                 <div class="choose">
-                    <div class="paper">
+                    <div class="rock" id="computerRock">
+                        <img src="rock.png">
+                        <p>Rock</p>
+                    </div>
+                    <div class="paper" id="computerPaper">
                         <img src="paper.png">
                         <p>Paper</p>
                     </div>
-                    <div class="scissors">
+                    <div class="scissors" id="computerScissors">
                         <img src="scisors.png">
                         <p>Scissors</p>
-                    </div>
-                    <div class="rock">
-                        <img src="rock.png">
-                        <p>Rock</p>
                     </div>
                 </div>
             </div>
@@ -80,6 +80,9 @@
             <a href="kamilshaikha.netlify.com"><p class="footer-second"> Kamil Shaikha </p></a>
         </div>
     </div>
+
+
+<script src="script.js"></script>
     
 </body>
 </html>

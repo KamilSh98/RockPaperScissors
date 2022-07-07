@@ -76,6 +76,10 @@ body {
   box-shadow: 8px 8px 24px 0px black;
 }
 
+.container .game .player .choose .paper img:hover, .container .game .player .choose .rock img:hover, .container .game .player .choose .scissors img:hover, .container .game .computer .choose .paper img:hover, .container .game .computer .choose .rock img:hover, .container .game .computer .choose .scissors img:hover {
+  opacity: 80%;
+}
+
 .container .game .player p, .container .game .computer p {
   font-size: 32px;
   text-align: center;
@@ -92,7 +96,7 @@ body {
   width: 150px;
   font-size: 20px;
   text-align: center;
-  margin: 00px 50px 0px auto;
+  margin: 0px 50px 0px auto;
   cursor: pointer;
 }
 
