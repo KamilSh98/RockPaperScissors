@@ -67,7 +67,6 @@ playerRock.addEventListener("click", () => {
 	var choices = ["rock", "paper", "scissors"];
     var num = Math.floor(Math.random()*3);
     document.getElementById("computerChoice").innerHTML = `Computer choose: <span>${choices[num].toUpperCase()}</span>`;
-
     let computer_choice = choices[num];
     let result = document.getElementById("result");
     let choices_object = {
