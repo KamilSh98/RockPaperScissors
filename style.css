@@ -37,7 +37,8 @@ body {
 
 .container .score-box .wins h4, .container .score-box .draws h4, .container .score-box .loses h4 {
   text-transform: uppercase;
-  letter-spacing: 1.5px;
+  letter-spacing: 2px;
+  text-decoration: underline;
 }
 
 .container .score-box .wins h2, .container .score-box .draws h2, .container .score-box .loses h2 {
@@ -88,26 +89,48 @@ body {
 
 .container .game .vs {
   font-size: 55px;
+  text-align: center;
 }
 
-.container .rules {
+.container .bottom-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .bottom-side .rules {
   border: 3px solid #eeda11;
   border-radius: 20px;
   width: 150px;
   font-size: 20px;
   text-align: center;
-  margin: 0px 50px 0px auto;
+  margin: 0px 20px 0px auto;
   cursor: pointer;
 }
 
-.container .rules p {
+.container .bottom-side .rules p {
   text-transform: uppercase;
   color: #eeda11;
 }
 
-.container .rules:hover {
+.container .bottom-side .rules:hover, .container .bottom-side .restart:hover {
   font-weight: bolder;
   letter-spacing: 1px;
+}
+
+.container .bottom-side .restart {
+  border: 3px solid #eeda11;
+  border-radius: 20px;
+  width: 150px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.container .bottom-side .restart p {
+  text-transform: uppercase;
+  color: #eeda11;
 }
 
 .container .footer {
