@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock, Paper, Scissors</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9b668d78e6.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -68,11 +69,8 @@
                 </div>
             </div>
         </div>
-
-
-
         <div class="bottom-side">
-            <div class="rules">
+            <div class="rules" id="rules">
                 <p>Rules</p>
             </div>
             <div class="restart" id="restart">
@@ -83,10 +81,34 @@
             <p class="footer-first">Game created by </p>
             <a href="kamilshaikha.netlify.com"><p class="footer-second"> Kamil Shaikha </p></a>
         </div>
+        <div class="showRules" id="showRules">
+            <div class="ruleBox" id="rulebox">
+                <i class="fa-solid fa-xmark" id="closeRules"></i>
+                <p class="headerRules">Why is Rock Paper Scissors played?</p>
+                <p class="textRules">This game is played by children and adults and is popular all over the world. 
+                    Apart from being a game played to pass time, the game is usually played in situations where something has to be chosen. 
+                    It is similar in that way to other games like flipping the coin, throwing dice or drawing straws. 
+                    There is no room for cheating or for knowing what the other person is going to do so the results are usually very satisfying with no room for fighting or error.</p>
+                <p class="headerRules">What are the rules of RPS?</p>
+                <p class="textRules">Although the game has a lot of complexity to it, the rules to play it are pretty simple.
+                    The game is played where players deliver hand signals that will represent the elements of the game; rock, paper and scissors. The outcome of the game is determined by 3 simple rules:</br>
+                    <b>Rock wins against scissors.</b></br>
+                    <b>Scissors win against paper.</b></br>
+                    <b>Paper wins against rock.</b></p>
+                <p class="headerRules">The Hand Signals</p>
+                <p class="textRules">In order to ensure fair play, the game signals have been agreed upon to ensure the uniformity of delivery every single time. 
+                    This ensures that there will be no room for error and these signals have been approved for all types of recreational and professional play.
+                    The proper opening move will impact the overall success of the game. 
+                    This means that special attention should be given to the way you move your hand initially before you attempt to make any signal so that other players are not aware of your intention. 
+                    When you succeed to do so, you ensure that other players will not be able to make a signal that beats yours, at least not on purpose.</p>
+            </div>
+        </div>
     </div>
 
 
+
 <script src="script.js"></script>
+<script src="rules.js"></script>
     
 </body>
 </html>

@@ -104,8 +104,8 @@ body {
   width: 150px;
   font-size: 20px;
   text-align: center;
-  margin: 0px 20px 0px auto;
   cursor: pointer;
+  margin: 0px 20px 0px auto;
 }
 
 .container .bottom-side .rules p {
@@ -113,8 +113,8 @@ body {
   color: #eeda11;
 }
 
-.container .bottom-side .rules:hover, .container .bottom-side .restart:hover {
-  font-weight: bolder;
+.container .bottom-side .rules:hover {
+  font-weight: 800;
   letter-spacing: 1px;
 }
 
@@ -131,6 +131,11 @@ body {
 .container .bottom-side .restart p {
   text-transform: uppercase;
   color: #eeda11;
+}
+
+.container .bottom-side .restart:hover {
+  font-weight: 800;
+  letter-spacing: 1px;
 }
 
 .container .footer {
@@ -154,5 +159,45 @@ body {
   font-size: 24px;
   font-weight: 800;
   text-decoration: underline;
+}
+
+.container .showRules {
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  width: 90%;
+  height: 90%;
+  display: none;
+}
+
+.container .showRules .ruleBox {
+  background-color: #000;
+  width: 90%;
+  height: 85%;
+  border-radius: 50px;
+  border: 3px solid #eeda11;
+}
+
+.container .showRules .ruleBox .headerRules {
+  font-weight: 800;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.container .showRules .ruleBox .textRules {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 1.1rem;
+}
+
+.container .showRules .ruleBox .fa-xmark {
+  font-size: 50px;
+  color: #eeda11;
+  cursor: pointer;
+  margin: 2% 0 0 95%;
+}
+
+.container .showRules .ruleBox p {
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
